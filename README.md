@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next Learn 项目运行指南
+> 若想运行该项目必读
 
-## Getting Started
+## 运行所需要的依赖包(必要条件)
+-  @nextui-org/react
+-  @supabase/auth-ui-react
+-  @supabase/auth-ui-shared
+-  @supabase/ssr
+-  @supabase/supabase-js
+-  framer-motion
+-  lucide-react
 
-First, run the development server:
+> ! 依赖包为整个项目执行必须项，若缺少包会直接影响项目的执行 ! 
+
+使用: **npm i xxx** 安装
+注: xxx 为你需要安装的包，安装多个包可通过之间添加空格分割
+
+
+## 开始运行项目
+
+在终端执行:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# dev 代表 以开发模式运行
 ```
+当输出:
+```
+  ▲ Next.js 14.0.4
+   - Local:        http://localhost:3001
+   - Environments: .env
+  ✓ Ready in 8s
+```
+则项目在 http://localhost:3001 运行成功,默认运行端口是:**3000**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+在浏览器中打开上述地址访问项目
